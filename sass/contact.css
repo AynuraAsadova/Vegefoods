@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.cards_section {
+  background-color: #f7f6f2;
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.cards_section .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards_section .container .row .col-md-3 {
+  padding: 0 15px;
+}
+
+.cards_section .container .row .col-md-3 .card {
+  border: none;
+  height: 10rem;
+}
+
+.cards_section .container .row .col-md-3 .card .card-body {
+  padding: 2rem 1.25rem;
+  color: grey;
+}
+
+.cards_section .container .row .col-md-3 .card .card-body p {
+  margin-bottom: 0 !important;
+}
+
+.cards_section .container .row .col-md-3 .card .card-body p span {
+  color: black;
+}
+
+.cards_section .container .row {
+  padding-top: 3rem;
+}
+
+.cards_section .container .row .col-md-6 iframe {
+  width: 100%;
+  height: 33.5rem;
+}
+
+.cards_section .container .row .col-md-6 form {
+  padding: 3rem;
+  background-color: white;
+}
+
+.cards_section .container .row .col-md-6 form .form-group .form-control {
+  border-radius: 0;
+  padding: 1.5rem;
+}
+
+.cards_section .container .row .col-md-6 form .form-group .form-control:focus {
+  border-color: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.cards_section .container .row .col-md-6 form .form-group textarea {
+  height: 10rem;
+}
+
+.cards_section .container .row .col-md-6 form button {
+  border: 1px solid #82ae46;
+  color: white;
+  border-radius: 5rem;
+  background-color: #82ae46;
+  padding: 1rem 3.5rem;
+}
+
+.cards_section .container .row .col-md-6 form button:hover {
+  border: 1px solid #82ae46;
+  color: #82ae46;
+  background-color: white;
+}
+
+@media only screen and (max-width: 420px) {
+  .cards_section .container .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .cards_section .container .row .col-12 {
+    margin-bottom: 1rem;
+  }
+  .cards_section .container .row .col-12 .card {
+    height: auto;
+  }
+  .cards_section .container .row .col-12 form {
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .cards_section .row form {
+    padding: 0.5rem !important;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

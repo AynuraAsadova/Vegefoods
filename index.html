@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegefoods</title>
+    <link rel="stylesheet" href="sass/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lora:400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Lora:400i|Poppins:500,600&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/resp_nav.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <span><i class="fas fa-phone-alt"></i></span>
+                    <a href="tel:+1235 2355 98">+ 1235 2355 98</a>
+                </div>
+                <div class="col-md-4 col-12">
+                    <span><i class="fas fa-paper-plane"></i>YOUREMAIL@EMAIL.COM</span>
+                </div>
+                <div class="col-md-4 col-12">
+                    <span>3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION MENU -->
+    <section class="navigation" id="navbar">
+        <div class="nav_container">
+            <div class="brand">
+                <a href="index.html">VEGEFOODS</a>
+            </div>
+            <div class="nav_mobile"><a id="nav_toggle" href="#!"><span></span></a></div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Shop</a>
+                        <ul class="nav_dropdown">
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="wishlist.html">Whishlist</a></li>
+                            <li><a href="single product.html">Single Product</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="bg_color"><a href="cart.html"><i class="fas fa-shopping-cart"></i>[0]</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- MAIN IMG SECTION -->
+    <section class="carousel_section">
+        <div class="mySlides fade" data-ride="carousel">
+            <img src="img/bg_1.jpg" alt="background">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <h1>We serve Fresh Vegestables & Fruits</h1>
+                    <p>We deliver organic vegetables & fruits</p>
+                    <button type="button" class="btn btn-success">
+                        View Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade" data-ride="carousel">
+            <img src="img/bg_2.jpg" alt="background">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <h1>100% fresh and organic foods</h1>
+                    <p>We deliver organic vegetables & fruits</p>
+                    <button type="button" class="btn btn-success">View Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade" data-ride="carousel">
+            <img src="img/bg_1.jpg" alt="background">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <h1>We serve Fresh Vegestables & Fruits</h1>
+                    <p>We deliver organic vegetables & fruits</p>
+                    <button type="button" class="btn btn-success">View Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="mySlides fade" data-ride="carousel">
+            <img src="img/bg_2.jpg" alt="background">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <h1>100% fresh and organic foods</h1>
+                    <p>We deliver organic vegetables & fruits</p>
+                    <button type="button" class="btn btn-success">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE SECTION -->
+    <section class="service_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-12" data-aos="fade-up">
+                    <div class="media">
+                        <div class="icon bg-color-1">
+                            <div class="img" style="background-image: url(img/shipped.png);"></div>
+                        </div>
+                        <div class="text">
+                            <h3>free shipping</h3>
+                            <p>ON ORDER OVER $100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="media">
+                        <div class="icon bg-color-2">
+                            <div class="img" style="background-image: url(img/diet.png);"></div>
+                        </div>
+                        <div class="text">
+                            <h3>always fresh</h3>
+                            <p>PRODUCT WELL PACKAGE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12" data-aos="fade-up" data-aos-delay="200">
+                    <div class="media">
+                        <div class="icon bg-color-3">
+                            <div class="img" style="background-image: url(img/award.png);"></div>
+                        </div>
+                        <div class="text">
+                            <h3>superior quality</h3>
+                            <p>QUALITY PRODUCTS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="media">
+                        <div class="icon bg-color-4">
+                            <div class="img" style="background-image: url(img/support.png);"></div>
+                        </div>
+                        <div class="text">
+                            <h3>support</h3>
+                            <p>24/7 SUPPORT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORY SECTION -->
+    <section class="category_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="img top" style="background-image: url(img/category-1.jpg);" data-aos="fade-up">
+                        <span class="text">
+                            <a href="#">Fruits</a>
+                        </span>
+                    </div>
+                    <div class="img" style="background-image: url(img/category-2.jpg);" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <span class="text">
+                            <a href="#">Vegetables</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img middle" style="background-image: url(img/category.jpg);" data-aos="fade-up">
+                        <div class="img_text">
+                            <h3>Vegetables</h3>
+                            <p>Protect the health of every home</p>
+                            <button type="button" class="btn btn-primary">Shop now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img top" style="background-image: url(img/category-3.jpg);" data-aos="fade-up">
+                        <span class="text">
+                            <a href="#">Juices</a>
+                        </span>
+                    </div>
+                    <div class="img" style="background-image: url(img/category-4.jpg);" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <span class="text">
+                            <a href="#">Dried</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <h4>Featured Products</h4>
+                    <h2>Our Products</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-4">
+                <div class="col" data-aos="fade-up">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-1.jpg" class="card-img-top" alt="product img">
+                            <span class="percent">30%</span>
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">bell pepper</h5>
+                            <div class="card-text">
+                                <div class="price">$120.00</div>
+                                <div class="sale_price">$80.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-2.jpg" class="card-img-top" alt="product img">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">strawberry</h5>
+                            <div class="card-text">
+                                <div class="sale_price">$120.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-3.jpg" class="card-img-top" alt="product img">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">green beans</h5>
+                            <div class="card-text">
+                                <div class="sale_price">$120.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-4.jpg" class="card-img-top" alt="product img">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">purple cabbage</h5>
+                            <div class="card-text">
+                                <div class="sale_price">$120.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-5.jpg" class="card-img-top" alt="product img">
+                            <span class="percent">30%</span>
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">tomatoe</h5>
+                            <div class="card-text">
+                                <div class="price">$120.00</div>
+                                <div class="sale_price">$80.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-6.jpg" class="card-img-top" alt="product img">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">brocolli</h5>
+                            <div class="card-text">
+                                <div class="sale_price">$120.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-7.jpg" class="card-img-top" alt="product img">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">carrots</h5>
+                            <div class="card-text">
+                                <div class="sale_price">$120.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="700">
+                    <div class="card h-100">
+                        <a href="#">
+                            <img src="img/product-8.jpg" class="card-img-top" alt="product img">
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">fruit juice</h5>
+                            <div class="card-text">
+                                <div class="sale_price">$120.00</div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-bars"></i></a>
+                                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- IMG SECTION -->
+    <section class="img_section" style="background-image: url(img/bg_3.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <span>Best Price For You</span>
+                    <h2>Deal of the day</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+                    <h3>Spinach</h3>
+                    <span class="price"> now $5 only</span>
+                    <div class="timer">
+                        <div class="time">
+                            <div id="days"></div>
+                            <span>days</span>
+                        </div>
+                        <div class="time">
+                            <div id="hours"></div>
+                            <span>hours</span>
+                        </div>
+                        <div class="time">
+                            <div id="minutes"></div>
+                            <span>minutes</span>
+                        </div>
+                        <div class="time">
+                            <div id="seconds"></div>
+                            <span>seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CUSTOMERS SECTION -->
+    <section class="customers_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-7" data-aos="fade-up">
+                    <span>Testimony</span>
+                    <h2>Our satisfied customer says</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in</p>
+                </div>
+            </div>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row" data-aos="fade-up" data-aos-delay="100">
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_1.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_2.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>system analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_3.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Marketing manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_1.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_2.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>system analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_3.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Marketing manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_1.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_2.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>system analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_3.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Marketing manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_1.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_2.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>system analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_3.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Marketing manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_1.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Web Developer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_2.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>system analyst</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <div class="card">
+                                    <img src="img/person_3.jpg" class="card-img-top" alt="person">
+                                    <span class="icon"><i class="fas fa-quote-left"></i></span>
+                                    <div class="card-body">
+                                        <div class="card-text">
+                                            <p>Far far away, behind the word mountains, far from the
+                                                countries Vokalia and Consonantia, there live the blind texts.
+                                            </p>
+                                        </div>
+                                        <div class="card-title">
+                                            <h5>Garreth Smith</h5>
+                                            <p>Marketing manager</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <hr>
+
+    <!-- PARTNERS SECTION -->
+    <section class="partners_section">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-5">
+                <div class="col-md col-12" data-aos="fade-up">
+                    <a href="#">
+                        <img src="img/partner-1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md col-12" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <img src="img/partner-2.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md col-12" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#">
+                        <img src="img/partner-3.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md col-12" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#">
+                        <img src="img/partner-4.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md col-12" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#">
+                        <img src="img/partner-5.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUBSCRIBE SECTION -->
+    <section class="subscribe_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h2>Subcribe to our Newsletter</h2>
+                    <p>Get e-mail updates about our latest shops and special offers</p>
+                </div>
+                <div class="col-md-6 col-12">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-10 col-9">
+                                <input type="text" class="form-control" placeholder="Enter email address">
+                            </div>
+                            <div class="col-md-2 col-2">
+                                <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3 col-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Vegefoods</h5>
+                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia.</p>
+                        <div class="icons">
+                            <a href="" data-aos="fade-up" data-aos-delay="100"><i class="fab fa-twitter"></i></a>
+                            <a href="" data-aos="fade-up" data-aos-delay="200"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" data-aos="fade-up" data-aos-delay="300"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Menu</h5>
+                        <ul class="card-text">
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Journal</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Help</h5>
+                        <div class="text d-flex">
+                            <ul class="card-text">
+                                <li><a href="#">Shipping Information</a></li>
+                                <li><a href="#">Returns & Exchange</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                            <ul class="card-text">
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="card-body">
+                        <h5 class="card-title">Have a Questions?</h5>
+                        <ul class="card-text">
+                            <li>
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <span>203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                            <li><a href="tel:+2 392 3929 210"><span><i class="fas fa-phone-alt"></i></span><span>+2 392
+                                        3929 210</span></a></li>
+                            <li><a href="mailto:info@yourdomain.com"><span><i
+                                            class="fas fa-envelope"></i></span><span>info@yourdomain.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">Copyright ©2020 All rights reserved | This template is made with
+                <span><i class="fas fa-heart"></i></span> by <a href="#">Colorlib</a></div>
+        </div>
+    </footer>
+
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+        });
+
+        var deadline = new Date("dec 31, 2020 23:00:00").getTime();
+        var x = setInterval(function () {
+
+            var now = new Date().getTime();
+            var t = deadline - now;
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((t % (1000 * 60)) / 1000);
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+            if (t < 0) {
+                clearInterval(x);
+                document.getElementById("days").innerHTML = '0';
+                document.getElementById("hours").innerHTML = '0';
+                document.getElementById("minutes").innerHTML = '0';
+                document.getElementById("seconds").innerHTML = '0';
+            }
+        }, 1000);
+
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000);
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>

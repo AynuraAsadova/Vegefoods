@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.foods_section {
+  padding: 1rem 0 8rem;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.foods_section .container .row .col-md-8 .card {
+  border: none;
+  padding-top: 4.5rem;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-5 a {
+  display: block;
+  height: 15.5rem;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 90%;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body {
+  padding: 3px;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body .card-time .text-muted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body .card-time .text-muted div {
+  margin-right: 8px;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body .card-time .text-muted div a {
+  text-decoration: none;
+  color: black;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body .card-time .text-muted div .comments {
+  color: #b3b3b3;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body .card-time .text-muted div .comments:hover {
+  color: black;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body h5 {
+  margin: 1.5rem 0;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body h5 a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body h5 a:hover {
+  color: #82ae46;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body p {
+  color: grey;
+  font-size: 15px;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body .btn {
+  background-color: #82ae46;
+  border: 1px solid #82ae46;
+  border-radius: 5rem;
+  line-height: 1.6;
+}
+
+.foods_section .container .row .col-md-8 .card .row .col-md-7 .card-body .btn:hover {
+  background-color: transparent;
+  color: #82ae46;
+}
+
+.foods_section .container .row .col-md-4 .aside_section {
+  padding: 4rem 2rem;
+}
+
+.foods_section .container .row .col-md-4 .aside_section h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.foods_section .container .row .col-md-4 .aside_section form .input-group {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.foods_section .container .row .col-md-4 .aside_section form .input-group .form-control {
+  border: none;
+  height: 3.1rem;
+}
+
+.foods_section .container .row .col-md-4 .aside_section form .input-group .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.foods_section .container .row .col-md-4 .aside_section form .input-group:focus,
+.foods_section .container .row .col-md-4 .aside_section form .input-group:active {
+  border: 1px solid #82ae46;
+}
+
+.foods_section .container .row .col-md-4 .aside_section form .input-group-icon {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.foods_section .container .row .col-md-4 .aside_section form .input-group-icon i {
+  font-size: 14px;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .categories {
+  padding: 4rem 0;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .categories .card {
+  border: none;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .categories .card .list-group .list-group-item {
+  padding-left: 0;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .categories .card .list-group .list-group-item a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .categories .card .list-group .list-group-item a span {
+  position: absolute;
+  right: 0;
+  color: #ccc;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card {
+  border: none;
+  padding-top: 1.5rem;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card .row .col-md-3 a {
+  display: block;
+  height: 4.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card .row .col-md-9 .card-body {
+  padding: 0 0 0 1.3rem;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card .row .col-md-9 .card-body h5 a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card .row .col-md-9 .card-body .card-time .text-muted {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card .row .col-md-9 .card-body .card-time .text-muted div {
+  margin-right: 6px;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card .row .col-md-9 .card-body .card-time .text-muted div a {
+  text-decoration: none;
+  color: gray;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .recent_blog .card .row .col-md-9 .card-body .card-time .text-muted div a i {
+  font-size: 11px;
+  margin-right: 4px;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .tag_cloud {
+  padding: 4rem 0;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .tag_cloud .tag_cloud_link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 6px 10px;
+  margin-bottom: 9px;
+  display: inline-block;
+  font-size: 10px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-right: 5px;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .tag_cloud .tag_cloud_link a:last-child {
+  margin-right: 0;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .tag_cloud .tag_cloud_link a:hover {
+  border: 1px solid black;
+}
+
+.foods_section .container .row .col-md-4 .aside_section .paragraph p {
+  color: gray;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 420px) {
+  .foods_section {
+    padding-bottom: 0;
+  }
+  .foods_section .container .row .col-md-8 {
+    padding-top: 3rem;
+  }
+  .foods_section .container .row .col-md-8 .card {
+    padding-top: 1rem;
+  }
+  .foods_section .container .row .col-md-8 .card .row .col-md-5 a {
+    width: 100%;
+  }
+  .foods_section .container .row .col-md-8 .card .row .col-md-7 {
+    padding: 1rem 0;
+  }
+  .foods_section .container .row .col-md-4 .aside_section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .foods_section {
+    padding-bottom: 0;
+  }
+  .foods_section .row .aside_section {
+    padding: 0 !important;
+  }
+}
+/*# sourceMappingURL=blog.css.map */

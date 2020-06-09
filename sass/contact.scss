@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cards_section {
+    background-color: #f7f6f2;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 5.5rem;
+    .container {
+        .row {
+            display: flex;
+            .col-md-3{
+                padding: 0 15px;
+                .card {
+                    border: none;
+                    height: 10rem;
+                    .card-body {
+                        padding: 2rem 1.25rem;
+                        color: grey;
+    
+                        p {
+                            margin-bottom: 0 !important;
+    
+                            span {
+                                color: black;
+                            }
+    
+                        }
+                    }
+                }
+            }
+           
+
+        }
+        .row{
+            padding-top: 3rem;
+            .col-md-6{
+                iframe{
+                    width: 100%;
+                    height: 33.5rem;
+                }
+                form{
+                    padding: 3rem;
+                    background-color: white;
+                    .form-group{
+                        .form-control{
+                            border-radius: 0;
+                            padding: 1.5rem;
+                        }
+                        .form-control:focus{
+                            border-color: black;
+                            box-shadow: none;
+                        }
+                        textarea {
+                            height: 10rem;
+                        }
+                    }
+                    button{
+                        border: 1px solid #82ae46;
+                        color: white;
+                        border-radius: 5rem;
+                        background-color: #82ae46;
+                        padding: 1rem 3.5rem;
+                    }
+                    button:hover{
+                        border: 1px solid #82ae46;
+                        color: #82ae46;
+                        background-color: white;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 420px){
+
+    .cards_section{
+        .container{
+            .row{
+                flex-direction: column-reverse;
+                .col-12{
+                    margin-bottom: 1rem;
+                    .card{
+                        height: auto;
+                    }
+                    form{
+                        padding: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+} 
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .cards_section{
+        .row{
+            form{
+                padding: 0.5rem !important;
+            }
+        }
+    }
+
+}
